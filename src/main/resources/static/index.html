@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html id="demo">
+<html>
 <head>
-    <meta charset="ISO-8859-1">
-    <title>Spring Boot Web Application Example</title>
-    <script src='myScripts.js'></script>
+    <title>Login Form</title>
+
 </head>
 <body>
-<H2>Greeting</H2>
-<a href="https://app-index.azurewebsites.net/greeting">Greeting...</a>
-<H2>Get the time</H2>
-<a href="time.html">Time App...</a>
-<H2>Music</H2>
-<a href="video.html">Player App...</a>
+<h2>Login Page</h2><br>
+<div class="login">
+    <form id="login" method="get" action="navigation.html">
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <input type="submit" name="log" id="log" value="Log In Here">
+        <br><br>
+        <br><br>
+        Forgot <a href="#">Password</a>
+    </form>
+</div>
 </body>
 </html>
